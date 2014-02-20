@@ -2,10 +2,10 @@
  * Module dependencies.
  */
 
-var Spinner = require('spinner')
-  , debug = require('debug')('spin')
-  , css = require('css')
-  , removed = require('removed');
+var Spinner = require('component-spinner')
+  , debug = require('visionmedia-debug')('spin')
+  , css = require('component-css')
+  , removed = require('component-removed');
 
 /**
  * Add a spinner to `el`,

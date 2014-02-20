@@ -1,5 +1,5 @@
 {
-  "name": "spin-component",
+  "name": "component-spin",
   "description": "Higher level spinner API",
   "version": "0.0.2",
   "keywords": [
@@ -10,20 +10,10 @@
     "progress"
   ],
   "dependencies": {
-    "debug": "*",
-    "css-component": "*",
-    "spinner-component2": "0.1.0",
-    "removed-component": "0.0.3"
+    "visionmedia-debug": "git://github.com/npmcomponent/visionmedia-debug.git",
+    "component-css": "git://github.com/npmcomponent/component-css.git",
+    "component-spinner": "git://github.com/npmcomponent/component-spinner.git",
+    "component-removed": "git://github.com/npmcomponent/component-removed.git"
   },
-  "development": {},
-  "license": "MIT",
-  "component": {
-    "scripts": {
-      "spin/index.js": "index.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/spin.git"
-  }
+  "license": "MIT"
 }
